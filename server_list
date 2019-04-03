@@ -4,3 +4,7 @@
 #
 #Example (blackadder is the name of one of our servers)
 #blackadder sysadmin user1 user2
+#OR
+#blackadder.com sysadmin user1 user2
+#^this is if you wish to enter url's instead of names, make sure to change code
+#accordingly

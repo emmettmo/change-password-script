@@ -69,9 +69,12 @@ def do_everything(server, user):
     old_passwd = old_passwd[:-1] 
     new_passwd = gen_password()
    
+
+    #Use this if you have the servers as addresses and not names
+    #server_address = server
+    
     #CHANGE THIS so that it becomes server.ending
-    #or you can skip this step by just making the list contain the url
-    server_address = server + "your.something.something"
+    server_address = server + ".foo.bar"
 
     #setting up ssh client object
     ssh = paramiko.SSHClient()
