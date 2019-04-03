@@ -1,0 +1,6 @@
+#Enter server and then the users to change seperated by a space
+#Keep in mind some servers CANNOT ssh in via root so you will have to manually
+#change that if you need to
+#
+#Example (blackadder is the name of one of our servers)
+#blackadder sysadmin user1 user2
